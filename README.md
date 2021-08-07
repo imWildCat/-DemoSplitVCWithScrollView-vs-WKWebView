@@ -18,6 +18,11 @@ webView.scrollView.alwaysBounceHorizontal = false // This does not work at all.
 does not work
 
 
+## Video recoding
+
+![recoding](https://user-images.githubusercontent.com/2396817/128588780-633d9e0e-3126-400c-ae23-5833a07a41f6.gif)
+
+
 ## License
 
 MIT
