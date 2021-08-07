@@ -15,6 +15,10 @@
 		5E1700DF26BE28FB007176B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1700DD26BE28FB007176B9 /* LaunchScreen.storyboard */; };
 		5E1700EA26BE28FB007176B9 /* DemoSplitVCWithScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1700E926BE28FB007176B9 /* DemoSplitVCWithScrollViewTests.swift */; };
 		5E1700F426BE28FB007176B9 /* DemoSplitVCWithScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1700F326BE28FB007176B9 /* DemoSplitVCWithScrollViewUITests.swift */; };
+		5E17010126BE296E007176B9 /* WebViewDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E17010026BE296E007176B9 /* WebViewDetailVC.swift */; };
+		5E17010326BE2A14007176B9 /* RootSplitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E17010226BE2A14007176B9 /* RootSplitVC.swift */; };
+		5E17010526BE2A45007176B9 /* MasterTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E17010426BE2A45007176B9 /* MasterTableVC.swift */; };
+		5E17010726BE2B8B007176B9 /* DemoNativeChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E17010626BE2B8B007176B9 /* DemoNativeChildVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,11 @@
 		5E1700E926BE28FB007176B9 /* DemoSplitVCWithScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSplitVCWithScrollViewTests.swift; sourceTree = "<group>"; };
 		5E1700EF26BE28FB007176B9 /* DemoSplitVCWithScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSplitVCWithScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1700F326BE28FB007176B9 /* DemoSplitVCWithScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSplitVCWithScrollViewUITests.swift; sourceTree = "<group>"; };
+		5E17010026BE296E007176B9 /* WebViewDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDetailVC.swift; sourceTree = "<group>"; };
+		5E17010226BE2A14007176B9 /* RootSplitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootSplitVC.swift; sourceTree = "<group>"; };
+		5E17010426BE2A45007176B9 /* MasterTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableVC.swift; sourceTree = "<group>"; };
+		5E17010626BE2B8B007176B9 /* DemoNativeChildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNativeChildVC.swift; sourceTree = "<group>"; };
+		5E687CFA26BE461B00800720 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,13 +83,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		528AE1AF5DC6720CC878C6BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5E1700C626BE28FA007176B9 = {
 			isa = PBXGroup;
 			children = (
+				5E687CFA26BE461B00800720 /* README.md */,
 				5E1700D126BE28FA007176B9 /* DemoSplitVCWithScrollView */,
 				5E1700E826BE28FB007176B9 /* DemoSplitVCWithScrollViewTests */,
 				5E1700F226BE28FB007176B9 /* DemoSplitVCWithScrollViewUITests */,
 				5E1700D026BE28FA007176B9 /* Products */,
+				528AE1AF5DC6720CC878C6BD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +122,10 @@
 				5E1700DB26BE28FB007176B9 /* Assets.xcassets */,
 				5E1700DD26BE28FB007176B9 /* LaunchScreen.storyboard */,
 				5E1700E026BE28FB007176B9 /* Info.plist */,
+				5E17010026BE296E007176B9 /* WebViewDetailVC.swift */,
+				5E17010226BE2A14007176B9 /* RootSplitVC.swift */,
+				5E17010426BE2A45007176B9 /* MasterTableVC.swift */,
+				5E17010626BE2B8B007176B9 /* DemoNativeChildVC.swift */,
 			);
 			path = DemoSplitVCWithScrollView;
 			sourceTree = "<group>";
@@ -256,8 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E1700D726BE28FA007176B9 /* ViewController.swift in Sources */,
+				5E17010526BE2A45007176B9 /* MasterTableVC.swift in Sources */,
+				5E17010126BE296E007176B9 /* WebViewDetailVC.swift in Sources */,
+				5E17010326BE2A14007176B9 /* RootSplitVC.swift in Sources */,
 				5E1700D326BE28FA007176B9 /* AppDelegate.swift in Sources */,
 				5E1700D526BE28FA007176B9 /* SceneDelegate.swift in Sources */,
+				5E17010726BE2B8B007176B9 /* DemoNativeChildVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
